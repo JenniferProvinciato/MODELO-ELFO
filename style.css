@@ -14,7 +14,7 @@ body {
 
 :root {
   --lips: #4f1221;
-  --iris: #3b616d;
+  --iris: #266274;
   --irisHighlight: #7e4200;
   --gelLeft: magenta;
   --gelRight: deepskyblue;
@@ -4419,36 +4419,36 @@ label {
   cursor: pointer;
 }
 
-label[for="collapse"]:before {
-  content: "Collapse";
+label[for="Seletor"]:before {
+  content: "Seletor";
 }
 
-label[for="collapse"]:after {
+label[for="Seletor"]:after {
   content: "\2715";
   float: right;
 }
 
-input#collapse {
+input#Seletor {
   opacity: 0;
   position: fixed;
   top: 50px;
   right: 90px;
 }
 
-#collapse:checked~h2,
-#collapse:checked~input {
+#Seletor:checked~h2,
+#Seletor:checked~input {
   opacity: 0;
 }
 
-#collapse:checked~.selection-bottom {
+#Seletor:checked~.selection-bottom {
   height: 40px;
 }
 
-#collapse:checked+label:before {
+#Seletor:checked+label:before {
   content: "Expand";
 }
 
-#collapse:checked+label:after {
+#Seletor:checked+label:after {
   content: "\2630";
 }
 
